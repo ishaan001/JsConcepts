@@ -1,13 +1,3 @@
-// var firstname= 'ishaan';
-// var middlename= 'veer';
-// var lastname= 'dadhwal';
-
-// console.log(firstname+ ' ' + middlename+' ' + lastname);
-// console.log(firstname.concat("hello",lastname));
-// var fullName = firstname+ ' ' + middlename+' ' + lastname;
-// console.log(fullName.toUpperCase());
-// console.log(fullName.toLowerCase());
-
 var firstName = 'William';
 var lastName = 'Johnson';
 var age = 36;
@@ -15,7 +5,6 @@ var str = 'Hello there my name is Brad';
 var tags = 'web design,web development,programming';
 
 var val;
-
 val = firstName + lastName;
 
 // Concatenation
@@ -69,3 +58,5 @@ val = str.replace('Brad', 'Jack');
 val = str.includes('foo');
 
 console.log(val);
+
+

@@ -71,3 +71,37 @@ console.log(Math.min(1,2,-4,8,12));
 console.log(Math.floor(Math.random() * 30 + 1));
 
 
+var numbers = [100,44,5,6,89,19];
+console.log(numbers.sort( function (a,b) {
+  return a - b;
+}));
+
+var day;
+switch(new Date().getDay()){
+  case 0: 
+          day = 'Sunday';
+          break;
+  case 1: 
+          day = 'Monday';
+          break;
+  case 2: 
+          day = 'Tuesday';
+          break;
+  case 3: 
+          day = 'Wednesday';
+          break;  
+  case 4: 
+          day = 'Thursday';
+          break;  
+  case 5: 
+          day = 'Friday';
+          break;
+  case 6: 
+          day = 'Saturday';
+          break;    
+  default: console.log('No such day is there');
+
+}
+
+console.log(`Today is ${day}`);
+
