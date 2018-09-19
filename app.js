@@ -105,3 +105,34 @@ switch(new Date().getDay()){
 
 console.log(`Today is ${day}`);
 
+
+// function declarations
+function square(firstname = 'ishaan', lastname = 'dadhwal'){
+
+  console.log('Hello ' + firstname + ' ' + lastname);
+}
+
+square('madhav'); 
+
+
+// function expressions  
+// Setname is a variable which needs to be 
+const SetName = function(x = 4){
+    return x + x;
+};
+console.log(SetName());
+
+//Immediatley invokable functions expressions (IIFE's)
+// These are basically the functions we get decleared and executed by themseleves 
+// for an better understanding you can consider them as anonyoums functions
+
+(function(name){
+  console.log(`My name is ${name}`);
+})('ISHAAN');
+
+ 
+var cars = ['honda', 'toyota', 'chevy', 'mercedes', 'audi'];
+
+cars.forEach(function(car){
+        console.log(car)
+});
